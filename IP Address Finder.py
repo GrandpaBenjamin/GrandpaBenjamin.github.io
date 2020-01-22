@@ -1,6 +1,7 @@
 #IP Address Finder
 
-import socket 
+import socket
+import time
   
 
 def get_Host_name_IP(): 
@@ -14,5 +15,6 @@ def get_Host_name_IP():
   
 
 get_Host_name_IP()
-  
+
+time.sleep(100)
 
